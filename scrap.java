@@ -106,7 +106,7 @@ n=n.replace(" ","+");
 		while(v1<xx)
 		{
 			p=s.indexOf(search,v);
-			System.out.println(p);
+			//System.out.println(p);
 			q=s.substring(p);
 			q=q.substring(0,q.indexOf("</div>"));
 			v=p+q.length();
@@ -241,7 +241,7 @@ n=n.replace(" ","+");
 		{
 			if((fc-nommm) ==5)
 			{
-				System.out.println(sumf);
+				//System.out.println(sumf);
 				break;
 
 
